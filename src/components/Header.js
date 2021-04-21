@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header-wraper">
             <img className="header-bg" src={Laptop}/>
             <div className = "main-info">
-            <h1>A Computer Enthusiast</h1>
+            <h1 className="text-lg">A Computer Enthusiast</h1>
             <Typed className="typed-text"
                 strings = {["Web Design","Web Developer","App Development"]}
                 typeSpeed={40}
