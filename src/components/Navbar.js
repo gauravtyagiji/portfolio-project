@@ -2,8 +2,8 @@ import React from 'react'
 import codefreak from '../codefreak.png'
 
 // importing raect fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { faBars } from '@fontawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
