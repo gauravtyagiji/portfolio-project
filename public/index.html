@@ -43,6 +43,12 @@
     <title>React App</title>
   </head>
   <body>
+    <form name="contact-m1" netlify netlify-honeypot="bot-field" action="/contact" hidden>
+     <input type="text" id="name" name="full-name" className="form-control"/>
+     <input type="text" id="email" name="email" className="form-control"/>
+     <input type="text" name="subject" className="form-control"/>
+     <textarea name="message" id="message" cols="30" rows="10" className="form-control md-textarea"></textarea>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -68,9 +74,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script>
-  baguetteBox.run('.tz-gallery');
-</script>
   </body>
 </html>
 
