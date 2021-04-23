@@ -167,6 +167,29 @@ a.instagram {
   background-color:beige;
 }
 
-/* Blog page css */
+/* hobby page css */
 
+.carousel-item>img{
+  max-height: 800px;
+}
 
+@media (max-width: 688px) {
+  .carousel-item>img {
+      max-height: 166px;
+  }
+}
+
+.card>img{
+  max-height: 150px;
+}
+
+.item:hover{
+  filter: brightness(80%);
+}
+.item{
+  transition: .5s ease-in-out;
+}
+
+.card{
+  width: 18rem;
+}

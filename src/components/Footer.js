@@ -15,7 +15,6 @@ function Footer() {
                 <div className="row">
 
                     <div className="col-md-12 py-4 d-flex justify-content-center social_icon">
-                        <h3 className="mr-4">Social Follow</h3>
                         <a href="https://www.instagram.com/ambiguousphotography/"
                             className="mr-4 instagram social">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
@@ -32,7 +31,7 @@ function Footer() {
                 </div>
                 <div className="row">
                     <div className="col-md-12 footer-copyright text-center py-3">© 2021 Copyright:
-                    <a href="#"> CodeFreak.com</a>
+                    <a href="#"> iamcodefreak.netify.app</a>
                     </div>
                 </div>
             </div>

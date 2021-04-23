@@ -9,6 +9,7 @@ import AboutMe from './components/AboutMe'
 import SinglePost from './components/SinglePost'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ContactMe from './components/ContactMe';
 
 import Home from './components/Home'
 
@@ -38,6 +39,7 @@ function App() {
     <Route component={Post} path='/post' />
     <Route component={Hobbies} path='/hobbies' />
     <Route component={Project} path='/project' />
+    <Route component={ContactMe} path='/contact' />
     </Switch>
     <Footer/>
     </BrowserRouter>
