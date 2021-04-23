@@ -11,14 +11,14 @@ function ContactMe(){
 
             <div className="row">
             <div className="col-md-9 md-md-0 mb-5">
-                <form method="post" name="contact me" id="contactform" netlify onSubmit="submit" data-netlify-honeypot="bot-field">
+                <form method="post" name="contact m1" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
                 <div hidden>
                     <input name="bot-field"/>
                 </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
                             <div className="md-form mb-0">
-                                <input type="hidden" name="form-name" value="contact me"/>
+                                <input type="hidden" name="form-name" value="contact m1"/>
                                 <input type="text" id="name" name="name" className="form-control"/>
                                 <label htmlFor="name"> Your name </label>
                             </div>
