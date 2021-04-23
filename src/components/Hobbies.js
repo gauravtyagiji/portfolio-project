@@ -2,27 +2,16 @@ import React from 'react';
 import Sky from '../images/sky.jpg'
 import Alone from '../images/alonecar.jpg'
 import John from '../images/johnwick.jpg'
-import Drake from '../images/drake.jpg'
-import Joker from '../images/joker.jpg'
-import Bike from '../images/bike.jpg'
 import Laxman from '../images/laxmanjhula.jpg'
 import Kesari from '../images/kesari.jpg'
 import Breakingbad from '../images/breakingbad.jpg'
-import Sunset from '../images/sunset.jpg'
 import Kedar1 from '../images/kedar1.JPG'
 import Kedar2 from '../images/kedar2.JPG'
-import Kedar3 from '../images/kedar3.JPG'
-import Kedar4 from '../images/kedar4.JPG'
 import Kuari1 from '../images/kuari1.JPG'
 import Kuari2 from '../images/kuari2.JPG'
-import Kuari3 from '../images/kuari3.JPG'
-import Kuari4 from '../images/kuari4.JPG'
-import Kuari5 from '../images/kuari5.JPG'
 import Badri1 from '../images/badri1.JPG'
 import Badri2 from '../images/badri2.JPG'
-import Badri3 from '../images/badri3.JPG'
-import Badri4 from '../images/badri4.JPG'
-import Badri5 from '../images/badri5.JPG'
+
 
 
 function Hobbies() {
@@ -83,20 +72,8 @@ function Hobbies() {
                             </a>
 
                         </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Kedar3} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kedar3} alt="kedarnaath" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Kedar4} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kedar4} alt="kedarnaath" />
-                            </a>
-
-                        </div>
+                        
+                       
                         <div className="item col-md-4 col-sm-6 mb-3">
 
                             <a href={Badri1} className="fancybox" data-fancybox="gallery1">
@@ -111,27 +88,9 @@ function Hobbies() {
                             </a>
 
                         </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Badri3} className="fancybox" data-fancybox="gallery1">
-                                <img src={Badri3} alt="badrinaath" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Badri4} className="fancybox" data-fancybox="gallery1">
-                                <img src={Badri4} alt="badrinaath" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Badri5} className="fancybox" data-fancybox="gallery1">
-                                <img src={Badri5} alt="badrinaath" />
-                            </a>
-
-                        </div>
+                        
+                        
+                        
                         <div className="item col-md-4 col-sm-6 mb-3">
 
                             <a href={Kuari1} className="fancybox" data-fancybox="gallery1">
@@ -143,28 +102,6 @@ function Hobbies() {
 
                             <a href={Kuari2} className="fancybox" data-fancybox="gallery1">
                                 <img src={Kuari2} alt="kuaripass" />
-                            </a>
-
-                        </div>
-                        
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Kuari3} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kuari3} alt="kuaripass" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Kuari4} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kuari4} alt="kuaripass" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Kuari5} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kuari5} alt="kuaripass" />
                             </a>
 
                         </div>
@@ -187,13 +124,6 @@ function Hobbies() {
                         </div>
                         <div className="item col-md-4 col-sm-6 mb-3">
 
-                            <a href={Alone} className="fancybox" data-fancybox="gallery1">
-                                <img src={Alone} alt="alonecar" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
                             <a href={Breakingbad} className="fancybox" data-fancybox="gallery1">
                                 <img src={Breakingbad} alt="breakingbad" />
                             </a>
@@ -201,22 +131,8 @@ function Hobbies() {
                         </div>
                         <div className="item col-md-4 col-sm-6 mb-3">
 
-                            <a href={Joker} className="fancybox" data-fancybox="gallery1">
-                                <img src={Joker} alt="joker" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Drake} className="fancybox" data-fancybox="gallery1">
-                                <img src={Drake} alt="drake" />
-                            </a>
-
-                        </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
                             <a href={Kesari} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kesari} alt="bike" />
+                                <img src={Kesari} alt="kesari" />
                             </a>
 
                         </div>
