@@ -28,7 +28,7 @@ import Badri5 from '../images/badri5.JPG'
 function Hobbies() {
     return (
         <>
-            <div className="bg-green-50 min-h-screen p-12 mx-auto">
+            <div className="bg-green-50 min-h-screen p-12 mx-auto mb-5">
                 <h1 className="text-5xl flex justify-center cursive">
                     My Hobbies Page
                 </h1>
@@ -36,204 +36,203 @@ function Hobbies() {
                     Welcome to my page of hobbies
                 </h2>
                 <div className="container">
-                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img className="d-block w-100" src={Sky} alt="sky" />
+                    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <img className="d-block w-100" src={Sky} alt="sky" />
+                            </div>
+                            <div className="carousel-item">
+                                <img className="d-block w-100" src={Alone} alt="alone" />
+                            </div>
+                            <div className="carousel-item">
+                                <img className="d-block w-100" src={Kesari} alt="kesari" />
+                            </div>
+                            <div className="carousel-item">
+                                <img className="d-block w-100" src={Laxman} alt="laxmanjhula" />
+                            </div>
                         </div>
-                        <div className="carousel-item">
-                            <img className="d-block w-100" src={Alone} alt="alone" />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="d-block w-100" src={Kesari} alt="kesari" />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="d-block w-100" src={Laxman} alt="laxmanjhula" />
-                        </div>
+                        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Previous</span>
+                        </a>
+                        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Next</span>
+                        </a>
                     </div>
-                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </a>
                 </div>
-                </div>
-                
-                <div className="container gallery-container mt-5 mb-5">
-                <div class="jumbotron">
-                    <div class="container">
-                        <h1 class="display-4">My Photography Section</h1>
+            </div>
+                <div className="container">
+                    <div class="jumbotron">
+
+                        <h1 class="display-4 mx-2">My Photography Section</h1>
                         <p class="lead mt-2">I like to sieze moments and take pictures of whatever feels good to my eyes 😊.</p>
+
                     </div>
-                </div>
-                        <div className="row mb-3">
+                    <div className="row mb-3">
 
-                            <div className="item col-md-4 col-sm-6 mb-3">
-                                <a href={Kedar1} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kedar1} alt="kedarnaath"  />
-                                </a>
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        <div className="item col-md-4 col-sm-6 mb-3">
+                            <a href={Kedar1} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kedar1} alt="kedarnaath" />
+                            </a>
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kedar2} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kedar2} alt="kedarnaath"  />
-                                </a>
+                            <a href={Kedar2} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kedar2} alt="kedarnaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kedar3} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kedar3} alt="kedarnaath"  />
-                                </a>
+                            <a href={Kedar3} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kedar3} alt="kedarnaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kedar4} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kedar4} alt="kedarnaath"  />
-                                </a>
+                            <a href={Kedar4} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kedar4} alt="kedarnaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Badri1} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Badri1} alt="badrinaath"  />
-                                </a>
+                            <a href={Badri1} className="fancybox" data-fancybox="gallery1">
+                                <img src={Badri1} alt="badrinaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Badri2} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Badri2} alt="badrinaath"  />
-                                </a>
+                            <a href={Badri2} className="fancybox" data-fancybox="gallery1">
+                                <img src={Badri2} alt="badrinaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Badri3} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Badri3} alt="badrinaath"  />
-                                </a>
+                            <a href={Badri3} className="fancybox" data-fancybox="gallery1">
+                                <img src={Badri3} alt="badrinaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Badri4} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Badri4} alt="badrinaath"  />
-                                </a>
+                            <a href={Badri4} className="fancybox" data-fancybox="gallery1">
+                                <img src={Badri4} alt="badrinaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Badri5} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Badri5} alt="badrinaath"  />
-                                </a>
+                            <a href={Badri5} className="fancybox" data-fancybox="gallery1">
+                                <img src={Badri5} alt="badrinaath" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kuari1} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kuari1} alt="kuaripass" />
-                                </a>
+                            <a href={Kuari1} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kuari1} alt="kuaripass" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kuari2} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kuari2} alt="kuaripass"  />
-                                </a>
+                            <a href={Kuari2} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kuari2} alt="kuaripass" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kuari2} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kuari2} alt="kuaripass"  />
-                                </a>
+                            <a href={Kuari2} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kuari2} alt="kuaripass" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kuari3} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kuari3} alt="kuaripass"  />
-                                </a>
+                            <a href={Kuari3} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kuari3} alt="kuaripass" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kuari4} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kuari4} alt="kuaripass"  />
-                                </a>
+                            <a href={Kuari4} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kuari4} alt="kuaripass" />
+                            </a>
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                                <a href={Kuari5} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kuari5} alt="kuaripass" />
-                                </a>
+                            <a href={Kuari5} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kuari5} alt="kuaripass" />
+                            </a>
 
-                            </div>
                         </div>
                     </div>
-                
-                <div className="container gallery-container mt-5 mb-4">
-                <div class="jumbotron">
-                    <div class="container">
-                        <h1 class="display-4">My Sketch Section</h1>
-                        <p class="lead mt-2">I like to do sketching in my free time here are some of my sketches hope you'll like it 😊.</p>
-                    </div>
                 </div>
-                        <div className="row mb-3 mt-5">
 
-                            <div className="item col-md-4 col-sm-6 mb-3">
-                                <a href={John} className="fancybox" data-fancybox="gallery1">
-                                <img src={John} alt="johnwick"  />
-                                </a>
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                <div className="container">
+                    <div class="jumbotron">
+                        <div class="container">
+                            <h1 class="display-4">My Sketch Section</h1>
+                            <p class="lead mt-2">I like to do sketching in my free time here are some of my sketches hope you'll like it 😊.</p>
+                        </div>
+                    </div>
+                    <div className="row mb-3 mt-5">
 
-                                <a href={Alone} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Alone} alt="alonecar"  />
-                                </a>
+                        <div className="item col-md-4 col-sm-6 mb-3">
+                            <a href={John} className="fancybox" data-fancybox="gallery1">
+                                <img src={John} alt="johnwick" />
+                            </a>
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                            <a href={Alone} className="fancybox" data-fancybox="gallery1">
+                                <img src={Alone} alt="alonecar" />
+                            </a>
 
-                                <a href={Breakingbad} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Breakingbad} alt="breakingbad"/>
-                                </a>
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                            <a href={Breakingbad} className="fancybox" data-fancybox="gallery1">
+                                <img src={Breakingbad} alt="breakingbad" />
+                            </a>
 
-                                <a href={Joker} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Joker} alt="joker"/>
-                                </a>
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                            <a href={Joker} className="fancybox" data-fancybox="gallery1">
+                                <img src={Joker} alt="joker" />
+                            </a>
 
-                                <a href={Drake} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Drake} alt="drake"/>
-                                </a>
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                            </div>
-                            <div className="item col-md-4 col-sm-6 mb-3">
+                            <a href={Drake} className="fancybox" data-fancybox="gallery1">
+                                <img src={Drake} alt="drake" />
+                            </a>
 
-                                <a href={Kesari} className="fancybox" data-fancybox="gallery1">
-                                    <img src={Kesari} alt="bike"/>
-                                </a>
+                        </div>
+                        <div className="item col-md-4 col-sm-6 mb-3">
 
-                            </div>
+                            <a href={Kesari} className="fancybox" data-fancybox="gallery1">
+                                <img src={Kesari} alt="bike" />
+                            </a>
+
+                        </div>
                     </div>
                 </div>
                 <div className="container">
-                <h1 className="text-2xl flex justify-center mt-5">
-                    For more such pictures you can check out my instagram given below. Thank You ! 😊
+                    <h1 className="text-2xl flex justify-center mt-5">
+                        For more such pictures you can check out my instagram given below. Thank You ! 😊
                 </h1>
                 </div>
-            </div>
         </>
 
     )

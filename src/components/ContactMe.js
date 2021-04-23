@@ -11,7 +11,7 @@ function ContactMe(){
 
             <div className="row">
             <div className="col-md-9 md-md-0 mb-5">
-                <form method="POST" name="contact-m1" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form method="POST" name="contact-m1" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact-m1"/>
                     <div className="row mt-5">
                         <div className="col-md-6">
