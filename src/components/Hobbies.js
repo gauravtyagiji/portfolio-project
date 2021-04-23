@@ -146,13 +146,7 @@ function Hobbies() {
                             </a>
 
                         </div>
-                        <div className="item col-md-4 col-sm-6 mb-3">
-
-                            <a href={Kuari2} className="fancybox" data-fancybox="gallery1">
-                                <img src={Kuari2} alt="kuaripass" />
-                            </a>
-
-                        </div>
+                        
                         <div className="item col-md-4 col-sm-6 mb-3">
 
                             <a href={Kuari3} className="fancybox" data-fancybox="gallery1">

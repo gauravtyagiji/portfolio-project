@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import {BrowserRouter,Route,Switch} from "react-router-dom"
-import Particles from 'react-particles-js'
+
 import Project from './components/Project'
 import Hobbies from './components/Hobbies'
 import Post from './components/Post'
@@ -16,20 +16,6 @@ import Home from './components/Home'
 function App() {
   return (
     <>
-    <Particles className="particle-canvas"
-    params = {{
-      particles: {
-        number:{
-          value: 5, density:{
-            enable: true, value_area: 100
-          }
-        },
-        shape: "square", stroke: {
-          width:6, color: "#f9ab00"
-        }
-      }
-    }}
-    />
   <BrowserRouter>
     <Navbar/>
     <Switch>
